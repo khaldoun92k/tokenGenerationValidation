@@ -1,6 +1,16 @@
+# Token Generator/Validator 
+The purpose of this project is to run generate and validate a Token based on the Luhn algorithm (see below for detail)
+
+| Requirement | Version | Purpose of Choice                    |
+|-------------|---------|--------------------------------------|
+| JDK         | 20      | no particular reason                 |
+| npm         | 9.5.1   | to be able to run the React frontend |
+| Maven       | 3+      | building tool                        |
+
+-> To run both service and UI (on window) execute **start.bat**
+
 
 # Luhn algorithm
-
 
 The check digit is computed as follows:
 

@@ -1,13 +1,19 @@
 # Token Generator/Validator 
-The purpose of this project is to run generate and validate a Token based on the Luhn algorithm (see below for detail)
+The purpose of this project is to run generate and validate a Token based on the **Luhn algorithm** (see below for detail)
 
-| Requirement | Version | Purpose of Choice                    |
-|-------------|---------|--------------------------------------|
-| JDK         | 20      | no particular reason                 |
-| npm         | 9.5.1   | to be able to run the React frontend |
-| Maven       | 3+      | building tool                        |
+| Requirement | Version | Purpose of Choice                           |
+|-------------|---------|---------------------------------------------|
+| JDK         | 21      | no particular reason  (Latest Java version) |
+| node        | 18.16+  | to be able to build/run the React frontend  |
+| Maven       | 3+      | backend building tool                       |
 
 -> To run both service and UI (on window) execute **start.bat**
+this command will do the following actions:
+- run the generator spring boot app on port 8081
+- run the generator spring boot app on port 8082
+- wait 10 seconds (for both previous services to run)
+- install and start the frontend 
+
 
 
 # Luhn algorithm

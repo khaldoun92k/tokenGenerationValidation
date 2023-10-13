@@ -11,4 +11,4 @@ timeout /t 10
 
 REM Start the React project on port 8080
 set PORT=8080
-cd frontend && npm start"
+cd frontend && npm install && npm start -o

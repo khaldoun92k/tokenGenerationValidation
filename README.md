@@ -7,7 +7,7 @@ The purpose of this project is to run generate and validate a Token based on the
 | node        | 18.16+  | to be able to build/run the React frontend      |
 | Maven       | 3+      | backend building tool                           |
 
--> To run both service and UI (on window) execute **start.bat**
+-> To run both service and UI  execute **start.bat** (on window) or **start.sh** (on Lunix)
 this command will do the following actions:
 - run the generator spring boot app on port 8081
 - run the generator spring boot app on port 8082
